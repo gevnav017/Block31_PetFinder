@@ -1,0 +1,91 @@
+.overlay {
+    background-color: rgb(185, 185, 185);
+}
+
+#owners {
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;letter-spacing: normal;
+}
+
+.owners-list {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: solid gray .5px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.pet-container {
+    margin: 10px;
+    padding: 10px;
+    border: solid gray .5px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.pet-container:hover {
+    box-shadow: 10px 10px 10px lightgray, -10px 10px 10px lightgray;
+    cursor: pointer;
+    transform: translateY(-4px);
+    transition: all .3s;
+}
+
+.deleteBtn {
+    float: right;
+    background-color: white;
+    border: solid gray .05px;
+    border-radius: 6px;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(211, 50, 50);
+    cursor: pointer;
+    color: white;
+}
+
+.modal {
+    width: 40%;
+    min-width: 400px;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: 10px 10px 10px lightgray, -10px 10px 10px lightgray;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: solid gray .5px;
+    border-radius: 10px;
+}
+
+.modal-close {
+    display: none;
+}
+
+.modal-open {
+    display: block;
+}
+
+.close-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    background-color: white;
+    border: solid gray .5px;
+    border-radius: 6px;
+}
+
+.close-button:hover {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.pet-details {
+    margin: 20px;
+}
